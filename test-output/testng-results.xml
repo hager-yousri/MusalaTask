@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-09T23:57:15 EET" name="Suite" finished-at="2021-08-09T23:58:12 EET" duration-ms="57428">
+    <groups>
+    </groups>
+    <test started-at="2021-08-09T23:57:15 EET" name="Test" finished-at="2021-08-09T23:58:12 EET" duration-ms="57428">
+      <class name="Tests.CompanyTests">
+        <test-method is-config="true" signature="StartDriver(java.lang.String,java.lang.String)[pri:0, instance:Tests.CompanyTests@13d4992d]" started-at="2021-08-09T23:57:15 EET" name="StartDriver" finished-at="2021-08-09T23:57:35 EET" duration-ms="20907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.musala.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="UserCanOpenCompany()[pri:49, instance:Tests.CompanyTests@13d4992d]" started-at="2021-08-09T23:57:35 EET" name="UserCanOpenCompany" finished-at="2021-08-09T23:57:46 EET" duration-ms="10816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanOpenCompany -->
+        <test-method signature="OpenFacebook()[pri:50, instance:Tests.CompanyTests@13d4992d]" started-at="2021-08-09T23:57:47 EET" name="OpenFacebook" finished-at="2021-08-09T23:57:52 EET" duration-ms="5403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFacebook -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.CompanyTests@13d4992d]" started-at="2021-08-09T23:57:52 EET" name="stopDriver" finished-at="2021-08-09T23:57:53 EET" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.CompanyTests -->
+      <class name="Tests.ContactUsTests">
+        <test-method is-config="true" signature="StartDriver(java.lang.String,java.lang.String)[pri:0, instance:Tests.ContactUsTests@6bf08014]" started-at="2021-08-09T23:57:15 EET" name="StartDriver" finished-at="2021-08-09T23:57:32 EET" duration-ms="17899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.musala.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="UserCanNotSendInvalidContactUsReqest()[pri:0, instance:Tests.ContactUsTests@6bf08014]" started-at="2021-08-09T23:57:32 EET" name="UserCanNotSendInvalidContactUsReqest" finished-at="2021-08-09T23:57:47 EET" duration-ms="14933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanNotSendInvalidContactUsReqest -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.ContactUsTests@6bf08014]" started-at="2021-08-09T23:57:47 EET" name="stopDriver" finished-at="2021-08-09T23:57:50 EET" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.ContactUsTests -->
+      <class name="Tests.CareersTests">
+        <test-method is-config="true" signature="StartDriver(java.lang.String,java.lang.String)[pri:0, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:57:15 EET" name="StartDriver" finished-at="2021-08-09T23:57:31 EET" duration-ms="16292" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.musala.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="checkThatCheckOurOpenPositionsCanBeOpened()[pri:49, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:57:31 EET" name="checkThatCheckOurOpenPositionsCanBeOpened" finished-at="2021-08-09T23:57:48 EET" duration-ms="17184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatCheckOurOpenPositionsCanBeOpened -->
+        <test-method signature="checkThatTheUserCanFilterOpenPositions()[pri:50, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:57:48 EET" name="checkThatTheUserCanFilterOpenPositions" finished-at="2021-08-09T23:57:54 EET" duration-ms="6138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatTheUserCanFilterOpenPositions -->
+        <test-method signature="checkThatTheUserCanNotApplyForPositionWithInvalidEmail()[pri:51, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:57:54 EET" name="checkThatTheUserCanNotApplyForPositionWithInvalidEmail" finished-at="2021-08-09T23:57:57 EET" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatTheUserCanNotApplyForPositionWithInvalidEmail -->
+        <test-method signature="checkThatTheUserCanNotApplyForPositionWithEmptyRequiredFields()[pri:52, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:57:57 EET" name="checkThatTheUserCanNotApplyForPositionWithEmptyRequiredFields" finished-at="2021-08-09T23:57:59 EET" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatTheUserCanNotApplyForPositionWithEmptyRequiredFields -->
+        <test-method signature="checkThatTheUserCanSearchOpenPositionInEachCity()[pri:53, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:57:59 EET" name="checkThatTheUserCanSearchOpenPositionInEachCity" finished-at="2021-08-09T23:58:11 EET" duration-ms="12602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatTheUserCanSearchOpenPositionInEachCity -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:Tests.CareersTests@75d2da2d]" started-at="2021-08-09T23:58:11 EET" name="stopDriver" finished-at="2021-08-09T23:58:12 EET" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Tests.CareersTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
